@@ -1,0 +1,9 @@
+# Triple produit scalaire
+
+Voir [wikipedia](https://en.wikipedia.org/wiki/Triple_product).
+
+C'est le produit scalaire de A avec le produit vectoriel de B et C : **A⃗.(B⃗∧C⃗)**
+
+
+
+
