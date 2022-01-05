@@ -16,5 +16,13 @@ Icon=/home/tolokoban/Programs/Krita/krita-icon.png
 
 ## Icône
 
-La variable d'environnement `$XDG_DATA_DIRS` contient la liste des répertoires dans lesquels se trouvent les icônes.
-Par exemple, si cette variable contient `/usr/share/ubuntu` alors il y a un répertoire `/usr/share/ubuntu/icons`.
+La variable d'environnement `$XDG_DATA_DIRS` contient la liste des répertoires dans lesquels se trouvent les icônes système.
+Par exemple, si cette variable contient `/usr/share/ubuntu` alors le système va chercher l'icône dans le répertoire `/usr/share/ubuntu/icons`.
+
+Cette ligne de commande **bash** donne la liste de tous les répertoires d'icônes du système:
+```bash
+readarray -d ':' -t array <<< "$XDG_DATA_DIRS"; for path in "${array[@]}"; do if [ -d "${path}/icons" ]; then echo "${path}icons"; fi; done
+```
+
+Pour savoir oú placer les icônes en fonction du theme, voir ici: https://specifications.freedesktop.org/icon-theme-spec/icon-theme-spec-latest.html
+
