@@ -21,7 +21,8 @@ On peut désormais **installer** ce fichier en créant le lien suivant :
 ln -s ~/Programs/Krita/org.krita.Krita.desktop ~/.local/share/applications/org.krita.Krita.desktop
 ```
 
-D
+Vous pouvez désormais trouver Krita dans le **dash** en tapant son nom.
+Quand l'icône apparaît, faites apparaitre le menu contextuel et cliquez sur **"Add to Favorites"**.
 
 ## Icône
 
