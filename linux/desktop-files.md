@@ -21,6 +21,8 @@ On peut désormais **installer** ce fichier en créant le lien suivant :
 ln -s ~/Programs/Krita/org.krita.Krita.desktop ~/.local/share/applications/org.krita.Krita.desktop
 ```
 
+D
+
 ## Icône
 
 La variable d'environnement `$XDG_DATA_DIRS` contient la liste des répertoires dans lesquels se trouvent les icônes système.
