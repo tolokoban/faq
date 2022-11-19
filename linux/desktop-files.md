@@ -13,7 +13,7 @@ Name=Krita
 GenericName=Digital Painting Software
 Icon=/home/tolokoban/Programs/Krita/krita-icon.png
 Exec=/home/tolokoban/Programs/Krita/krita-5.0.0-x86_64.appimage
-Path=Exec=/home/tolokoban/Programs/Krita/
+Path=/home/tolokoban/Programs/Krita/
 ```
 
 On peut désormais **installer** ce fichier en créant le lien suivant :
