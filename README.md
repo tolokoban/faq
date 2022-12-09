@@ -1,6 +1,7 @@
 # faq
 Des trucs qu'on a déjà cherché 100 fois sur internet
 
+* [Applications](apps/index.md)
 * [Diagrammes](diagrams/index.md)
 * [Docker](docker/index.md)
 * [Géographie](geography/index.md)
