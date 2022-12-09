@@ -9,6 +9,13 @@ Le commit (`5235c6...`) peut être trouvé dans le menu Help/About du VSCode cli
 
 Il suffit maintenant de le décompresser dans `~/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91`
 
+```
+tar xzvf ./stable
+cd vscode-server-linux-x64
+mkdir ~/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91
+cp -vr * mkdir ~/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/
+```
+
 ----
 
 [Back](../index.md)
