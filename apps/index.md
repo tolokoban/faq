@@ -1,6 +1,6 @@
 # Applications
 
-* [VS Code](./vscode/index/md)
+* [VS Code](./vscode/index.md)
 
 ----
 
