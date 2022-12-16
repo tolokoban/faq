@@ -16,6 +16,11 @@ Récupérer le nom du container avec `docker container ls`
 docker exec -ti CONTAINER_NAME bash
 ```
 
+## Copier un fichier d'un container vers l'hôte
+
+```sh
+docker cp CONTAINER_NAME_OR_ID:/etc/apache2 ./config
+```
 ----
 
 [Retour](../README.md)
