@@ -1,5 +1,9 @@
 # Copier un répertoire, mais pas tout
 
 ```bash
-rsync -ah --progress --exclude={'node_modules/',''} src/ dst/
+rsync -ahP --exclude={'node_modules/',''} src/ dst/
 ```
+
+* `-a` : copier les droits
+* `-h` : format lisible par un humain
+* `-P` : afficher la progression pour les gros fichiers
