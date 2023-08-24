@@ -5,6 +5,7 @@
 * [Afficher les applications qui utilisent un port TCP](netstat.md)
 * [Recherches avancées de fichiers](find.md)
 * [Lister les appels systèmes d'un programme](syscalls.md)
+* [Copier un répertoire, mais pas tous les fichiers](copy-exclude.md)
 
 ----
 
