@@ -1,7 +1,7 @@
 # Copier un répertoire, mais pas tout
 
 ```bash
-rsync -ahP --exclude={'node_modules/',''} src/ dst/
+rsync -ahP --exclude={'node_modules','.git'} src/ dst/
 ```
 
 * `-a` : copier les droits
