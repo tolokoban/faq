@@ -8,7 +8,33 @@ Installer les packages suivants :
 sudo apt install colord-kde
 ```
 
-Dans les settings, on a maintenant une nouvelle section :
+Maintenant il faut récupérer un profile `*.icc` généré avec un appareil (par exemple un SpyderX sur Mac).
+Et on le copie au bon endroit :
 
-![image](https://github.com/tolokoban/faq/assets/3356894/50f61a67-48a9-4f20-8f81-4f89a110681e)
+```bash
+cp ./profile.icc /usr/share/color/icc/colord/
+```
+
+Il faut maintenant trouver l'identifiant de l'écran cible :
+
+```bash
+colormgr get-devices
+```
+
+Dans la liste qui apparaît, ce qui nous intéresse est le champ **Device ID**.
+Il faut maintenant récurérer l'identifiant de notre profil.
+
+```bash
+colormgr get-profiles
+```
+
+L'identifiant est dans le champ **Profile ID**.
+
+Il ne reste plus qu'à attribuer un profil à l'écran :
+
+```bash
+colormgr device-add-profile HDMI-A-1 icc-ec1a714f116713d9eddb7cf9f11de80b
+```
+
+
 
