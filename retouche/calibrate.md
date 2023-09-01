@@ -1,4 +1,4 @@
-# Calibrage d'écran (Kubuntu 23.04)
+# Calibrage d'écran (KDE)
 
 Voir aussi :
 * https://www.davidrevoy.com/article913/fedora-36-kde-spin-for-a-digital-painting-workstation-reasons-and-post-install-guide
@@ -8,6 +8,12 @@ Installer les packages suivants :
 
 ```bash
 sudo apt install colord-kde
+```
+
+ou
+
+```bash
+sudo dnf install colord-kde
 ```
 
 Maintenant il faut récupérer un profile `*.icc` généré avec un appareil (par exemple un SpyderX sur Mac).
