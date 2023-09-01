@@ -1,6 +1,8 @@
 # Calibrage d'écran (Kubuntu 23.04)
 
-Pour Fedora, voir : https://www.davidrevoy.com/article913/fedora-36-kde-spin-for-a-digital-painting-workstation-reasons-and-post-install-guide
+Voir aussi :
+* https://www.davidrevoy.com/article913/fedora-36-kde-spin-for-a-digital-painting-workstation-reasons-and-post-install-guide
+* http://www.lagom.nl/lcd-test/contrast.php
 
 Installer les packages suivants :
 
