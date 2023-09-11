@@ -7,6 +7,7 @@ Des trucs qu'on a déjà cherché 100 fois sur internet
 * [Docker](docker/index.md)
 * [Géographie](geography/index.md)
 * [Géométrie](geometry/index.md)
+* [GIT](git/index.md)
 * [Linux](linux/index.md)
 * [Montage video](montage-video/index.md)
 * [Nautilus](nautilus/index.md)
