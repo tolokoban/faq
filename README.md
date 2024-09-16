@@ -11,6 +11,7 @@ Des trucs qu'on a déjà cherché 100 fois sur internet
 * [Linux](linux/index.md)
 * [Montage video](montage-video/index.md)
 * [Nautilus](nautilus/index.md)
+* [Réseau](network/index.md)
 * [Retouche d'image](retouche/index.md)
 * [Sécurité](security/index.md)
 * [Web](web/index.md)
