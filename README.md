@@ -1,6 +1,7 @@
 # faq
 Des trucs qu'on a déjà cherché 100 fois sur internet
 
+* [Apache](apache/index.md)
 * [API](api/index.md)
 * [Applications](apps/index.md)
 * [Diagrammes](diagrams/index.md)
