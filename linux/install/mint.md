@@ -64,6 +64,15 @@ ssh-add ~/.ssh/github
 
 S'assurer d'avoir __docker__ : `sudo apt install docker.io docker-compose`
 
+Pour ne pas avoir à utiliser `sudo` tout le temps :
+
+```bash
+sudo groupadd docker
+sudo usermod -aG docker $USER
+```
+
+Tester avec cette commande : `docker run hello-world`
+
 Ajouter cela dans le `~/.bashrc` :
 
 ```bash
