@@ -69,7 +69,7 @@ Ajouter cela dans le `~/.bashrc` :
 ```bash
 export TRAILPASSION_DIR=/home/tolokoban/Code/github/trail-passion
 export TP_WWW_ROOT=${TRAILPASSION_DIR}/tp-website/backend/www
-alias tp='cd ~/Code/github/trail-passion/tp-website/backend && echo "Use this command to tail the logs:" && echo "docker logs -f backend-tp-apache-1" && docker-compose up'
+alias tp='cd ~/Code/github/trail-passion/tp-website/backend && echo "Use this command to tail the logs:" && echo "docker logs -f backend-tp-apache-1" && docker compose up'
 ```
 
 
