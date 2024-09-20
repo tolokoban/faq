@@ -16,3 +16,11 @@ Pour être le plus léger possible, on opte pour [l'environnement Xfce](https://
 Ajouter la touche _compose_ pour les claviers sans accent : Settings/Keyboard/Layout
 ![image](https://github.com/user-attachments/assets/01809496-e31a-4aaa-b534-7791ff494295)
 
+## NodeJS (an more) version manager
+
+Pour pouvoir gérer plusieurs languages (NodeJS, Rust, PHP, ...) nous utilison [asdf](https://github.com/asdf-vm/asdf).
+
+```bash
+sudo apt install curl git
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.14.1
+```
