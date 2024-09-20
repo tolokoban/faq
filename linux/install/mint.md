@@ -50,6 +50,13 @@ asdf global nodejs 20.17.0
 
 Toute la doc est ici :  [connecting to GitHub using SSH keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
 
+Créer une clef SSH comme ceci : `ssh-keygen -t ed25519 -C "your_email@example.com"`
 
+S'assurer d'avoir ceci dans le `~./bashrc` :
+
+```bash
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/github
+```
 
 
