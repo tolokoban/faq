@@ -24,3 +24,10 @@ Pour pouvoir gérer plusieurs languages (NodeJS, Rust, PHP, ...) nous utilison [
 sudo apt install curl git
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.14.1
 ```
+
+Add this in your `~/.bashrc` file:
+
+```
+. "$HOME/.asdf/asdf.sh"
+. "$HOME/.asdf/completions/asdf.bash"
+```
