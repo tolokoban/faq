@@ -60,4 +60,14 @@ eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/github
 ```
 
+## Trail-Passion
+
+S'assurer d'avoir `docker` : `sudo apt install docker.io`
+
+Ajouter cela dans le `~/.bashrc` :
+
+```bash
+
+```
+
 
