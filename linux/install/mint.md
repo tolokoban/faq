@@ -43,4 +43,5 @@ Install the version you like. For instance:
 
 ```bash
 asdf install nodejs 20.17.0
+asdf global nodejs 20.17.0
 ```
