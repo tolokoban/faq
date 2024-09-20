@@ -21,7 +21,7 @@ Ajouter la touche _compose_ pour les claviers sans accent : Settings/Keyboard/La
 Pour pouvoir gérer plusieurs languages (NodeJS, Rust, PHP, ...) nous utilison [asdf](https://github.com/asdf-vm/asdf).
 
 ```bash
-sudo apt install curl git
+sudo apt install curl git dirmngr gpg gawk
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.14.1
 ```
 
@@ -30,4 +30,10 @@ Add this in your `~/.bashrc` file:
 ```
 . "$HOME/.asdf/asdf.sh"
 . "$HOME/.asdf/completions/asdf.bash"
+```
+
+Restart your terminal and intall plugins:
+
+```bash
+asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
 ```
