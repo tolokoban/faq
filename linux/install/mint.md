@@ -36,4 +36,11 @@ Restart your terminal and intall plugins:
 
 ```bash
 asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
+asdf list all nodejs
+```
+
+Install the version you like. For instance:
+
+```bash
+asdf install nodejs 20.17.0
 ```
