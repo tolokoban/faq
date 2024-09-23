@@ -59,6 +59,22 @@ S'assurer d'avoir ceci dans le `~./bashrc` :
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/github
 ```
+## Virer le Alt-click
+
+Alt-click est utile dans Blender et Krita (au moins). Mais, par défaut, xfce l'utilise pour bouger les fenêtres.
+Pour se débarasser de ce mécanisme, il faut ouvrir la config :
+
+```bash
+xfce4-settings-manager
+```
+
+Aller dans la section __settings editor__, tout en bas, puis choisir `xfwm4` dans la colonne __Channel__.
+
+![image](https://github.com/user-attachments/assets/b79962a1-06a0-4bdd-a462-63fc1746dd83)
+
+Éditer le champ `easy_click` et retirer le __Alt__.
+
+![image](https://github.com/user-attachments/assets/050a92a9-a536-435b-a62a-6f4479b8e647)
 
 ## Trail-Passion
 
