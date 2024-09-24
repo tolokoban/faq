@@ -15,6 +15,7 @@ Des trucs qu'on a déjà cherché 100 fois sur internet
 * [Réseau](network/index.md)
 * [Retouche d'image](retouche/index.md)
 * [Sécurité](security/index.md)
+* [SOS](sos/index.md)
 * [Web](web/index.md)
 
 ----
