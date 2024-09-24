@@ -4,4 +4,4 @@
 
 ----
 
-[Retour](../index.md)
+[Retour](../)
