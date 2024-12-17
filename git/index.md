@@ -11,6 +11,6 @@ git remote -av
 Et avec la branche voulue :
 
 ```sh
-git fetch origin
-git checkout BBP134-738/allocate-9-brayns 
+git fetch origin remote-name:local-name
+git checkout local-name
 ```
