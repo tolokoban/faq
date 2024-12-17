@@ -5,7 +5,7 @@
 Lister les branches distantes :
 
 ```sh
-git remote -av
+git branch -av
 ```
 
 Et avec la branche voulue :
