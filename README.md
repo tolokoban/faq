@@ -10,6 +10,7 @@ Des trucs qu'on a déjà cherché 100 fois sur internet
 * [Géométrie](geometry/index.md)
 * [GIT](git/index.md)
 * [Linux](linux/index.md)
+* [MacOS](macos/index.md)
 * [Montage video](montage-video/index.md)
 * [Nautilus](nautilus/index.md)
 * [Réseau](network/index.md)
