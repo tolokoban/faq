@@ -1,3 +1,3 @@
 # Screen shots
 
-* Copy area to clipboard: `Shift-Conntrol-Command-4`.
+* Copy area to clipboard: `Shift-Control-Command-4`.
