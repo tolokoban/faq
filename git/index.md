@@ -1,5 +1,13 @@
 # GIT
 
+## Rebase
+
+Accepter les mofications de la branche sur laquelle on rebase (`target-branch`) :
+
+```sh
+git rebase -X theirs target-branch
+```
+
 ## Get remote branches
 
 Lister les branches distantes :
