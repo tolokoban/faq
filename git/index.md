@@ -22,3 +22,9 @@ Et avec la branche voulue :
 git fetch origin remote-name:local-name
 git checkout local-name
 ```
+
+## Commit commun à deux branches
+
+```sh
+git merge-base branch2 branch3
+```
