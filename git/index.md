@@ -3,7 +3,7 @@
 ## Rebase
 
 Supposons que l'on soit sur la branch `fork` et que l'on veuille rebaser sur `main`.
-En cas de conflits, on peut vouloir deux chose :
+En cas de conflits, on peut vouloir deux stratégies :
 
 1. Préférer les modifications de `fork` (__incoming__): `git rebase -X theirs main`
 2. Préférer les modifications de `main` (__current__): `git rebase -X ours main`
