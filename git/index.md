@@ -2,11 +2,11 @@
 
 ## Rebase
 
-Accepter les mofications de la branche sur laquelle on rebase (`target-branch`) :
+Supposons que l'on soit sur la branch `fork` et que l'on veuille rebaser sur `main`.
+En cas de conflits, on peut vouloir deux chose :
 
-```sh
-git rebase -X theirs target-branch
-```
+1. Préférer les mofications de `fork` (__incoming__): `git rebase -X theirs main`
+
 
 ## Get remote branches
 
