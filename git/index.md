@@ -31,3 +31,15 @@ git checkout local-name
 ```sh
 git merge-base branch2 branch3
 ```
+
+## Voir un fichier à un commit donné
+
+```sh
+git show c3007ccba33ecff0a2823f74af9ff3673ff1cb5f:src/components/neuron-viewer/hooks/electrodes.ts
+```
+
+## Les fichier qui ont changé depuis un commit donné
+
+```sh
+git diff c3007ccba33ecff0a2823f74af9ff3673ff1cb5f --name-only
+```
