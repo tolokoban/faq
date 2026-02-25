@@ -38,6 +38,12 @@ git merge-base branch2 branch3
 git show c3007ccba33ecff0a2823f74af9ff3673ff1cb5f:src/components/neuron-viewer/hooks/electrodes.ts
 ```
 
+## Void le diff d'un fichier avec un commit donné
+
+```sh
+git diff c3007ccba -- src/components/neuron-viewer/neuron-viewer-with-actions.module.css
+```
+
 ## Les fichier qui ont changé depuis un commit donné
 
 ```sh
