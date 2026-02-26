@@ -3,8 +3,15 @@
 # Get one argument: the branch to rebase on.
 # Default to "develop".
 
+if [ -z "$1" ]; then
+  echo
+  echo "Please specify the target branch as unique argument."
+  echo
+  exit 1
+fi
+
 CURRENT=`git branch --show-current --no-color`
-TARGET=${1:-develop}
+TARGET=$1
 
 echo
 echo Rebasing \"$CURRENT\" onto \"$TARGET\"...
