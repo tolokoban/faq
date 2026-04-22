@@ -11,6 +11,30 @@ En cas de conflits, on peut vouloir deux stratégies :
 Avant de faire un rebase, on doit souvent changer de branche, faire un pull, puis revenir sur notre branche.
 Voici un [script](./rebase.sh) qui permet de faire ça facilement.
 
+## Big squash avant rebase
+
+Pour connaitre le commit commun entre notre branche et la branch `main`:
+
+```bash
+git merge-base main HEAD
+```
+
+On peut alor afficher tous les commits depuis ce dernier:
+
+```bash
+git log --oneline 839b6e7..HEAD
+```
+
+On peut alors faire un __soft rest__ sur le commit commun.
+Puis un commit unique:
+
+```bash
+git reset --soft 839b6e7
+git commit -m "Fix missing somas, circuit viewer performance, controllable timeline, minimize button"
+```
+
+Le rebase n'aura maintenant qu'un seul commit à vérifier pour les conflits.
+
 ## Get remote branches
 
 Lister les branches distantes :
