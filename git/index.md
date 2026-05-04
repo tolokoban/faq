@@ -3,13 +3,40 @@
 ## Rebase
 
 Supposons que l'on soit sur la branch `fork` et que l'on veuille rebaser sur `main`.
+
+Avant de faire un rebase, on doit souvent changer de branche, faire un pull, puis revenir sur notre branche.
+Voici un [script](./rebase.sh) qui permet de faire ça facilement.
+
+### Résolution automatique de conflets
+
 En cas de conflits, on peut vouloir deux stratégies :
 
 1. Préférer les modifications de `fork` (__incoming__): `git rebase -X theirs main`
 2. Préférer les modifications de `main` (__current__): `git rebase -X ours main`
 
-Avant de faire un rebase, on doit souvent changer de branche, faire un pull, puis revenir sur notre branche.
-Voici un [script](./rebase.sh) qui permet de faire ça facilement.
+### Squash
+
+S'il y a trop de commits qui divergent, le rebase peut etre long et on peut devoir résourdre des conflist pour chaque commit, ce qui est long.
+Une technique est de squasher tous les commits de notre branche `fork`.
+
+On recherche d'abord le branche commune à `fork` et `main`:
+
+```sh
+git merge base main HEAD
+```
+
+Avec le commit (<COMMIT>) récupéré, on peut maintenant squasher tous les commits de `fork` au dela de <COMMIT>:
+
+```sh
+git reset --soft <COMMIT>
+git add .
+git commit -am "Blablabla"
+```
+
+### Définitions de **Ours / Mine** et **Theirs**
+
+Dans un rebase, Git se place dans la branche `main` qu'il appelle **Ours** / **Mine** et va appliquer les commits de `fork` qu'il appelle **Theirs**.
+
 
 ## Big squash avant rebase
 
