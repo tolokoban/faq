@@ -1,24 +1,25 @@
 # faq
+
 Des trucs qu'on a déjà cherché 100 fois sur internet
 
-* [Apache](apache/index.md)
-* [API](api/index.md)
-* [Applications](apps/index.md)
-* [Diagrammes](diagrams/index.md)
-* [Docker](docker/index.md)
-* [Géographie](geography/index.md)
-* [Géométrie](geometry/index.md)
-* [GIT](git/index.md)
-* [Linux](linux/index.md)
-* [MacOS](macos/index.md)
-* [Montage video](montage-video/index.md)
-* [Nautilus](nautilus/index.md)
-* [Réseau](network/index.md)
-* [Retouche d'image](retouche/index.md)
-* [Sécurité](security/index.md)
-* [SOS](sos/index.md)
-* [Web](web/index.md)
+* [Apache](apache/README.md)
+* [API](api/README.md)
+* [Applications](apps/README.md)
+* [Diagrammes](diagrams/README.md)
+* [Docker](docker/README.md)
+* [Géographie](geography/README.md)
+* [Géométrie](geometry/README.md)
+* [GIT](git/README.md)
+* [Linux](linux/README.md)
+* [MacOS](macos/README.md)
+* [Montage video](montage-video/README.md)
+* [Nautilus](nautilus/README.md)
+* [Réseau](network/README.md)
+* [Retouche d'image](retouche/README.md)
+* [Sécurité](security/README.md)
+* [SOS](sos/README.md)
+* [Web](web/README.md)
 
 ----
 
-* [Maison](maison/index.md)
+* [Maison](maison/README.md)

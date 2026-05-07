@@ -18,4 +18,4 @@ cp -vr * mkdir ~/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/
 
 ----
 
-[Back](../index.md)
+[Back](../README.md)
