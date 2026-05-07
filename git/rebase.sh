@@ -46,7 +46,7 @@ normal=$(tput sgr0)
 
 COUNT=$(git rev-list --count $BASE..$CURRENT)
 if [ "$COUNT" -gt 1 ]; then
-  echo "You have several commits aftert the common base."
+  echo "You have several commits after the common base."
     read -p "Do you want to squash them (Y/n)?" choice
     case "$choice" in 
         y|Y ) echo && git reset --soft "$BASE" && git commit -a;;
