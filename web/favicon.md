@@ -8,7 +8,7 @@ Pour les navigateurs utilisant HTML :
 <link rel="apple-touch-icon" href="/apple-touch-icon.png"><!-- 180×180 -->
 ```
 
-Pour les Proressive Web App :
+Pour les [Progressive Web App](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps) :
 
 ```html
 <link rel="manifest" href="/manifest.webmanifest">
