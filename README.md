@@ -5,6 +5,7 @@ Des trucs qu'on a déjà cherché 100 fois sur internet
 * [Apache](apache/README.md)
 * [API](api/README.md)
 * [Applications](apps/README.md)
+* [Blender](blender/README.md)
 * [Diagrammes](diagrams/README.md)
 * [Docker](docker/README.md)
 * [Géographie](geography/README.md)
