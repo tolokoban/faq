@@ -1,5 +1,7 @@
 # Web
 
+* [favicon](favicon.md)
+
 ## Cloner un site web
 
 ```bash
