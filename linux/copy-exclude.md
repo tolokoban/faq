@@ -1,4 +1,6 @@
-# Copier un répertoire, mais pas tout
+# Copier un répertoire
+
+## Mais pas tout
 
 ```bash
 rsync -ahP --exclude={'node_modules','.git'} src/ dst/
@@ -7,3 +9,9 @@ rsync -ahP --exclude={'node_modules','.git'} src/ dst/
 * `-a` : copier les droits
 * `-h` : format lisible par un humain
 * `-P` : afficher la progression pour les gros fichiers
+
+## En utilisant le `.gitignore`
+
+```bash
+rsync -a --filter=':- .gitignore' src/ dest/
+```
