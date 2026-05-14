@@ -8,6 +8,9 @@
 * [Lister les appels systèmes d'un programme](syscalls.md)
 * [Copier un répertoire, mais pas tous les fichiers](copy-exclude.md)
 * [Script qui lance des apps et les place sur l'écran](workspace.md)
+* Gestionnaire de fichiers
+  * [Nautilus](nautilus/README.md)
+  * [Nemo](nemo/README.md)
 
 ----
 
