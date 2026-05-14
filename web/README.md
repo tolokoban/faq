@@ -5,7 +5,7 @@
 ## Cloner un site web
 
 ```bash
-wget --mirror --page-requisites --html-extension --convert-links https://my-site.com
+wget --mirror --page-requisites --html-extension --convert-links --no-parent https://docs.blender.org/manual/en/latest/
 ```
 
 Quand toutes les pages, images et autre resources sont téléchargées,
