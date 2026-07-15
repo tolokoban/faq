@@ -2,6 +2,7 @@
 
 Des trucs qu'on a déjà cherché 100 fois sur internet
 
+* [AI](ai/README.md)
 * [Apache](apache/README.md)
 * [API](api/README.md)
 * [Applications](apps/README.md)
