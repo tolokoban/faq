@@ -11,6 +11,7 @@
 * Gestionnaire de fichiers
   * [Nautilus](nautilus/README.md)
   * [Nemo](nemo/README.md)
+* Problème de volume (`pactl set-sink-volume "alsa_output.usb-Logitech_PRO_X_2_LIGHTSPEED_0000000000000000-00.iec958-stereo" 85%`)
 
 ----
 
