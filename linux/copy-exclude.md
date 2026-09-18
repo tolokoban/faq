@@ -15,3 +15,11 @@ rsync -ahP --exclude={'node_modules','.git'} src/ dst/
 ```bash
 rsync -a --filter=':- .gitignore' src/ dest/
 ```
+
+## Seulement les fichier qui ont changé
+
+```bash
+rsync -ahPu src/ dst/
+```
+
+* `-u`, `--update` : copier seulement les nouveaux fichiers
