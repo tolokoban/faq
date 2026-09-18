@@ -1,5 +1,6 @@
 # Linux
 
+* [Polices de caractères (fonts)](Installer des polices de caractères)
 * [Installer un système](install/README.md)
 * [Créer une icône pour lancer une application](desktop-files.md)
 * [Copier un fichier sur une machine distante](remote-copy.md)
