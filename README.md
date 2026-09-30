@@ -15,6 +15,7 @@ Des trucs qu'on a déjà cherché 100 fois sur internet
 * [Linux](linux/README.md)
 * [MacOS](macos/README.md)
 * [Montage video](montage-video/README.md)
+* [npm](npm/README.md)
 * [Réseau](network/README.md)
 * [Retouche d'image](retouche/README.md)
 * [Sécurité](security/README.md)
