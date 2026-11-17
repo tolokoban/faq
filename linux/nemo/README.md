@@ -1,5 +1,9 @@
 # Nemo
 
+## Menus utiles
+
+* [Convert MD to PDF](convert-md-to-pdf.md)
+
 ## Ajouter des scripts
 
 Le menu contextuel d'un fichier/dossier affiche une rubrique `Scripts` qui contient le nom des fichiers executable de ce répertoire :
